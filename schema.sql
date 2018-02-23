@@ -3,16 +3,17 @@ CREATE TABLE mentor (
 	first_name VARCHAR(255) NOT NULL,
 	last_name VARCHAR(255) NOT NULL,
 	Profession VARCHAR(225),
-	aboutme TEXT
-	username VARCHAR(255) NOT NULL UNIQUE,
-	password VARCHAR(255) NOT NULL,
+	aboutme TEXT,
+	username VARCHAR(25) NOT NULL UNIQUE,
+	password VARCHAR(255) NOT NULL
+	
 );
 
 CREATE TABLE student (
 	id SERIAL PRIMARY KEY,
 	first_name VARCHAR(255) NOT NULL,
 	last_name VARCHAR(255) NOT NULL,
-	username VARCHAR(255) NOT NULL,
+	username VARCHAR(255) NOT NULL UNIQUE,
 	password VARCHAR(255) NOT NULL,
 	country VARCHAR(25) NOT NULL,
 	school VARCHAR(225) NOT NULL,
