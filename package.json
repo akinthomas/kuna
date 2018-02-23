@@ -1,0 +1,25 @@
+{
+  "name": "kuna",
+  "version": "1.0.0",
+  "description": "kuna is a simple webapp where people can signup to mentor international students",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akinthomas/kuna.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akinthomas/kuna/issues"
+  },
+  "homepage": "https://github.com/akinthomas/kuna#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "pg": "^7.4.1"
+  }
+}
